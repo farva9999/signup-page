@@ -18,13 +18,7 @@ img{
 
 }
 
-h1{
-    font-size: 28px;
-}
 
-h2{
-    font-size: 20px;
-}
 .cta{
     display: flex;
     flex-direction: column;
@@ -32,16 +26,26 @@ h2{
     height: 30vh;
     width: 70vw;
     justify-content: flex-end;
+    box-shadow: 0px 5px 10px grey;
 }
+
 .cta>*{
-    margin: 20px;
- 
+    margin-left: 20px;
+    margin-right: 20px;
 }
+
 
 .forms{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    box-shadow: 0px 5px 10px gray;
+    margin-bottom: 30px;
+}
+
+.forms>*{
+    flex-wrap: wrap;
+
 }
 
 
@@ -67,3 +71,26 @@ h2{
     flex-direction: column;
 }
 
+button{
+    width: 14rem;
+    height: 4rem;
+    font-size: 24px;
+    margin-left: 30px;
+    color: whitesmoke;
+    background-color: rgba(53, 117, 255, 0.801);
+    border: 0px;
+    border-radius: 8px;
+}
+
+#alreadyhaveaccount{
+    margin-left: 30px;
+}
+
+
+input:invalid {
+    border: 2px dashed red;
+  }
+  
+  input:valid {
+    border: 2px solid black;
+  }

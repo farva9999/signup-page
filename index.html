@@ -26,7 +26,7 @@
             <div class="names">
                 <div class="column">
                     <label for="firstname">FIRST NAME</label>
-                    <input type="text" name="firstname">
+                    <input type="text" name="firstname" required>
                 </div>
                 
                 
@@ -39,30 +39,30 @@
             <div class="info">
                 <div class="column">
                     <label for="phonenumber">PHONE #</label>
-                    <input type="text" name="phonenumber">
+                    <input type="number" name="phonenumber">
                 </div>
 
                 <div class="column">
                     <label for="emailaddress">EMAIL</label>
-                    <input type="text" name="emailaddress">
+                    <input type="email" name="emailaddress" required>
                 </div>
             </div>
 
             <div class="passwords">
                 <div class="column">
                     <label for="password">PASSWORD</label>
-                    <input type="text" name="password">
+                    <input type="password" name="password" required>
                 </div>
 
             <div class="column">
                 <label for="confirmpassword">CONFIRM PASSWORD</label>
-                <input type="text" name="confirmpassword">
+                <input type="password" name="confirmpassword" required>
             </div>
             </div>
         </div>
         <div class="account">
-            <button>Sign Up</button>
-            <p>Already have an account? <a href="https://www.google.com">Login</a></p>
+            <button>Create Account</button>
+            <p id="alreadyhaveaccount">Already have an account? <a href="https://www.google.com">Login</a></p>
         </div>
     </div>
             
